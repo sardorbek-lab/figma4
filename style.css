@@ -1,0 +1,815 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+header{
+    width: 100%;
+    height: 100px;
+    background-color: rgba(28, 24, 20, 1);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 150px;
+}
+body{
+    background-color: rgba(20, 17, 14, 1);
+     
+}
+header .links a{
+    color: #fff;
+    font-size: 16px;
+}
+header .links{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+header .links a :hover{
+    color: rgba(201, 158, 113, 1);
+}
+header .logo img{
+    width: 70px;
+    height: 55px;
+}
+header .icons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    gap: 25px
+    ;
+}
+header .icons a{
+    color: #fff;
+}
+.banner .banner_img img{
+    width: 100%;
+}
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Raleway:ital,wght@0,100..900;1,100..900&family=Righteous&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+.banner .banner_text h1{
+    font-family: "Righteous", sans-serif;
+    color: #fff;
+    font-size: 56px;
+}
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Raleway:ital,wght@0,100..900;1,100..900&family=Righteous&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap');
+.banner .banner_text p{
+    color: #fff;
+    font-size: 16px;
+    position: relative;
+    top: 20px;
+    line-height: 24px;
+    font-family: "Urbanist", sans-serif;
+}
+.banner .banner_text {
+    position: relative;
+    top: -460px;
+    left: 305px;
+}
+.banner .banner_text button{
+    position: relative;
+    top: 50px;
+    background-color: rgba(201, 158, 113, 1);
+    width: 150px;
+    height: 50px;
+    font-size: 17px;
+    color: #fff;
+    border: none;
+}
+.cofe{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.cofe .cards .text{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    gap: 12px;
+    position: relative;
+    margin-bottom: 20px;
+}
+.cofe .cards .text span{
+    color: rgba(201, 158, 113, 1);
+}
+.cofe .cards .text p{
+    font-family: "Righteous", sans-serif;
+    color: #fff;
+}
+.cofe .cards .img img{
+    width: 366px;
+    height: 420px;
+}
+.cofe .cards {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 36px;
+}
+.crate .card{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 10000px;
+    height: 600px;
+    gap: 32px;
+}
+.crate {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    top: 140px;
+}
+.crate .card .images img{
+    width: 298px;
+    height: 290px;
+}
+.crate .card .images{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 32px;
+    justify-content: center;
+}
+.crate .card .img img{
+    width: 298px;
+    height: 605px;
+}
+.crate .card .text{
+    width: 510px;
+    height: 605px;
+    background-color: rgba(28, 24, 20, 1);
+    padding: 130px 56px;
+    
+    gap: 36px;
+}
+.crate .card .text span{
+    color: rgba(201, 158, 113, 1);
+    font-family: "Righteous", sans-serif;
+}
+.crate .card .text h1{
+    color: #fff;
+    font-family: "Urbanist", sans-serif;
+    font-size: 48px;
+}
+.crate .card .text p{
+    color: rgba(189, 189, 189, 0.8);
+    font-family: "Urbanist", sans-serif;
+    font-size: 16px;
+    position: relative;
+    top: 32px;
+    line-height: 24px;
+}
+.popular{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items:center ;
+    position: relative;
+    top: 300px;
+    justify-content: center;
+}
+.popular .header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.popular .header span{
+    color: rgba(201, 158, 113, 1);
+}
+.popular .header h1{
+    color: #fff;
+    font-family: "Urbanist", sans-serif;
+}
+.popular .cards .card{
+    width: 326px;
+    height: 503px;
+    background-color: rgba(18, 19, 21, 1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.popular .cards .card .img{
+    position: relative;
+    top: -30px;
+}
+.popular .cards .card .text{
+    position: relative;
+    top: -0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.popular .cards .card .text h1{
+    color: #fff;
+    font-family: "Urbanist", sans-serif;
+    font-size: 22px;
+}
+.popular .cards {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 36px;
+}
+.popular .cards .card .text button{
+    position: relative;
+    top: 30px;
+    width: 140px;
+    height: 40px;
+    background-color: rgba(201, 158, 113, 1);
+    color: #fff;
+    border: none;
+}
+.popular .cards .card1{
+    width: 326px;
+    height: 503px;
+    background-color: rgba(18, 19, 21, 1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.popular .cards .card1 .icon{
+    color: rgba(201, 158, 113, 1);
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 4px;
+    position: relative;
+    top: -5px;
+}
+.popular .cards .card1 .text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    top: 10px;
+}
+.popular .cards .card1 .text h1{
+    color: #fff;
+    font-size: 22px;
+}
+.popular .cards .card1 .text p{
+    color: #fff;
+    position: relative;
+    top: 15px;
+}
+.popular .cards .card1 .text p span{
+    color: rgba(201, 158, 113, 1);
+
+}
+.popular .cards .card1 .img img{
+    position: relative;
+    top: -30px;
+}
+.popular .view{
+    width:  252px;
+    height: 60px;
+    background-color: rgba(201, 158, 113, 1);
+    position: relative;
+    top: 56px;
+    color: #fff;
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.machine{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    top: 500px; 
+}
+.machine .card{
+    width: 1000px;
+    height: 500px;
+    background-color: rgba(28, 24, 20, 1);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+    padding: 0px 100px;
+}
+.machine .card .text h1{
+    color: #fff;
+    font-family: "Righteous", sans-serif;
+    position: relative;
+    top: -50px;
+    font-size: 39px;
+}
+.machine .card .text{
+    width: 600px;
+    
+}
+.machine .card .text p{
+    color: rgba(255, 255, 255, 0.8);
+    font-family: "Righteous", sans-serif;
+    position: relative;
+    top: -30px;
+    line-height: 25px;
+    font-size: 16px;
+}
+.machine .card .text button{
+    width: 190px;
+    height: 50px;
+    background-color: rgba(201, 158, 113, 1);
+    color: #fff;
+    border: none;
+    font-size: 20px;
+}
+.menu{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    top: 700px;
+}
+.menu .header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.menu .header h1{
+    color: #fff;
+    font-family: "Righteous", sans-serif;
+}
+.menu .header p{
+    color: rgba(201, 158, 113, 1);
+}
+.menu .cards{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    position: relative;
+    top: 50px;
+}
+.menu .cards .card{
+    width: 520px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid rgba(50, 50, 61, 1);
+    padding: 0px 20px;
+}
+.menu .cards .card .img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    color: #fff;
+    font-family: "Righteous", sans-serif;
+}
+.menu .cards .card p{
+    color: rgba(201, 158, 113, 1);
+    font-size: 18px;
+}
+
+
+
+
+
+
+
+
+.menu .cards2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    position: relative;
+    top: 90px;
+}
+.menu .cards2 .card{
+    width: 520px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid rgba(50, 50, 61, 1);
+    padding: 0px 20px;
+}
+.menu .cards2 .card .img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    color: #fff;
+    font-family: "Righteous", sans-serif;
+}
+.menu .cards2 .card p{
+    color: rgba(201, 158, 113, 1);
+    font-size: 18px;
+}
+
+
+
+
+
+
+
+
+.menu .cards3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    position: relative;
+    top: 130px;
+}
+.menu .cards3 .card{
+    width: 520px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid rgba(50, 50, 61, 1);
+    padding: 0px 20px;
+}
+.menu .cards3 .card .img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    color: #fff;
+    font-family: "Righteous", sans-serif;
+}
+.menu .cards3 .card p{
+    color: rgba(201, 158, 113, 1);
+    font-size: 18px;
+}
+
+
+
+
+
+
+
+
+.menu .cards4{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    position: relative;
+    top: 170px;
+}
+.menu .cards4 .card{
+    width: 520px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid rgba(50, 50, 61, 1);
+    padding: 0px 20px;
+}
+.menu .cards4 .card .img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    color: #fff;
+    font-family: "Righteous", sans-serif;
+}
+.menu .cards4 .card p{
+    color: rgba(201, 158, 113, 1);
+    font-size: 18px;
+}
+
+.say{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    top: 1100px;
+}
+.say .header{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+.say .header span{
+    color: rgba(201, 158, 113, 1);
+}
+.say .header h1{
+    color: #fff;
+    font-family: "Righteous", sans-serif;
+    position: relative;
+    top: 10px;
+    font-size: 48px;
+}
+.say .cards{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    top: 40px;
+    gap: 40px
+    ;
+}
+.say .cards .card{
+    width: 565px;
+    height: 300px;
+    background-color: rgba(28, 24, 20, 1);
+    padding: 40px 40px;
+}
+.say .cards .card .text{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px
+    ;
+}
+.say .cards .card .text p{
+    color: rgba(255, 255, 255, 0.8);
+    font-size: 16px;
+    font-family: "Righteous", sans-serif;
+    line-height: 29px;
+    letter-spacing: 1.px;
+}
+.say .cards .card .icon{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    top: 30px;
+}
+.say .cards .card .icon .name span{
+    color: rgba(255, 255, 255, 1);
+}
+.say .cards .card .icon .name p{
+    color: rgba(255, 255, 255, 0.5);
+}
+.say .cards .card .icon .i i{
+    color: rgba(250, 166, 26, 1);
+}
+.say .people{
+    width: 100%;
+    height: 60px;
+    position: relative;
+    top: 90px;
+    padding: 0px 180px;
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+}
+.say .people .ch p{
+    color: rgba(201, 158, 113, 1);
+    font-size: 20px;
+}
+.say .people .ch {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+}
+.say .people .ch .ch1{
+    display: flex;
+    align-items: start;
+    justify-content: center;
+}
+.say .people .ch .ch1 .m{
+    width: 50px;
+    border: 2px solid rgba(201, 158, 113, 1);
+    position: relative;
+    top: 20px;
+    border-radius: 4px;
+}
+.say .people .ch .ch1 .q{
+    width: 50px;
+    border: 2px solid rgb(25, 25, 25);
+    position: relative;
+    top: 20px;
+    border-radius: 4px;
+    left: -2px;
+}
+.say .people .icon{
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    gap: 10px;
+}
+.say .people .icon .icon2{
+    width: 56px;
+    height: 56px;
+    color: #fff;
+    font-size: 19px;
+    background-color: rgba(18, 19, 21, 1);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.say .people .icon .icon1{
+    width: 56px;
+    height: 56px;
+    color: #fff;
+    font-size: 19px;
+    background-color: rgba(201, 158, 113, 1);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.book{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    top: 1300px;
+}
+.book .book_text{
+    width: 555px;
+    height: 622px;
+    background-color: rgba(28, 24, 20, 1);
+    padding: 70px 40;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 30px;
+}
+.book .book_text span{
+    color: rgba(201, 158, 113, 1);
+}
+.book .book_text h1{
+    color: #fff;
+    font-family: "Righteous", sans-serif;
+}
+.book .book_text .card1{
+    width: 449px;
+    height: 64px;
+    background-color: rgba(20, 17, 14, 1);
+    position: relative;
+    top: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+}
+.book .book_text .card1 p{
+    color: #fff;
+    font-size: 19px;
+    position: relative;
+    left: 10px;
+}
+.book .book_text button{
+    width: 200px;
+    height: 50px;
+    background-color: rgba(201, 158, 113, 1);
+    color: #fff;
+    font-size: 17px;
+    position: relative;
+    top: 50px;
+    border: none;
+}
+.new{
+    position: relative;
+    top: 1500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.new .header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.new .header span{
+    color: rgba(201, 158, 113, 1);
+}
+.new .header h1{
+    color: #fff;
+    font-family: "Righteous", sans-serif;
+    font-size: 46px;
+}
+.new .cards{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 36px;
+}
+.new .cards .card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 366px;
+    height: 508px;
+    background-color: rgba(28, 24, 20, 1);
+}
+.new .cards .card .card_text .text1{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 320px;
+}
+.new .cards .card .card_text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    top: -36px;
+}
+.new .cards .card .card_text .text1 p span{
+    color: rgba(201, 158, 113, 1);
+}
+.new .cards .card .card_text .text1 p{
+    color: #fff;
+}
+.new .cards .card .card_text .text2{
+    color: #fff;
+    position: relative;
+    top: -6px;
+}
+.new .cards .card .card_text .text2 p{
+    position: relative;
+    left: -12px;
+    top: 20px;
+    font-size: 24px;
+}
+.new .cards .card .card_text .text3{
+    position: relative;
+    top: 50px;
+    left: -110px;
+    position: relative;
+    top: -px;
+}
+.new .cards .card .card_text .text3 a{
+    color:rgba(201, 158, 113, 1) ;
+}
+.new .cards .card .card_img img{
+    width: 364px;
+    position: relative;
+    top: -36px;
+}
+.footer{
+    position: relative;
+    top: 1700px;
+    padding: 0px 165px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 59px;
+
+}
+.footer img{
+    width: 70px;
+    height: 60px;
+}
+.footer a{
+    color: #fff;
+}
+.footer .cart{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 328px;height: 70px;
+    background-color: rgba(28, 24, 20, 1);
+    border-radius: 36px
+    ;
+}
+.footer .cart p{
+    color: rgba(133, 133, 133, 0.8);
+    position: relative;
+    left: 28px;
+}
+.footer .cart button{
+    width: 48px;
+    height: 48px;
+    border: none;
+    border-radius: 50%;
+    background-color: rgba(201, 158, 113, 1);
+    box-shadow: 0px 22px 44px 0px rgba(201, 158, 113, 0.2);
+    color: #fff;
+    position: relative;
+    right: 12px;
+}
+.footer2{
+    width: 100%;
+    height: 70px;
+    background-color: rgba(28, 24, 20, 1);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    top: 1750px;
+    color: #fff;
+}
